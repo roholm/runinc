@@ -1,0 +1,12 @@
+@import '../../../../globalStyles/variabler';
+//used variables : $linkcolor, $linkactivecolor
+.navbar_link{
+    color: $linkcolor;
+    text-decoration: none;
+}
+.navbar_link--active{
+    color: $linkactivecolor;
+}
+li{
+    display: inline-block;
+}
