@@ -7,7 +7,7 @@ const Nav = () => {
         <nav>
             <ul>
                 <li>
-                    <NavLink exact to="/" className="navbar_link" activeClassName="navbar_link--active">Home</NavLink>
+                    <NavLink exact to="/" isActive={(_, { pathname }) => ["/", "/home"].includes(pathname)} className="navbar_link" activeClassName="navbar_link--active">Home</NavLink>
                 </li>
                 <li>
                     <NavLink to="/events" className="navbar_link" activeClassName="navbar_link--active">Events</NavLink>
