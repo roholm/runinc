@@ -15,7 +15,7 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App container-fluid">
         <Header />
 
         <Switch>

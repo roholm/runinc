@@ -1,11 +1,13 @@
 import React from 'react'
 import './weloverunning.scss'
 
+
 const WeLoveRunning = () => {
     return (
-        <div>
+        <section>
             <h3>We Love Running</h3>
-        </div>
+          
+        </section>
     )
 }
 

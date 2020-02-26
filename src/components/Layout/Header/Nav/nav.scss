@@ -1,5 +1,8 @@
 @import '../../../../globalStyles/variabler';
 //used variables : $linkcolor, $linkactivecolor
+nav{
+    display: inline;
+}
 .navbar_link{
     color: $linkcolor;
     text-decoration: none;

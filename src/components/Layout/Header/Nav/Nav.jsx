@@ -4,7 +4,7 @@ import './nav.scss'
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className="col-6">
             <ul>
                 <li>
                     <NavLink exact to="/" isActive={(_, { pathname }) => ["/", "/home"].includes(pathname)} className="navbar_link" activeClassName="navbar_link--active">Home</NavLink>

@@ -1,0 +1,17 @@
+.logo{
+    max-width: 15%;
+    .logo_img{
+        display: inline;
+    }
+    .logo_img--hover{
+        display: none;
+    }
+}
+.logo:hover{
+    .logo_img{
+        display: none;
+    }
+    .logo_img--hover{
+        display: inline;
+    }
+}
